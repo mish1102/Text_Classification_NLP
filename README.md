@@ -16,9 +16,11 @@ For Data preprocessing the following major steps are undertaken:
 ## Preparing Dataset for the training 
 Lets split the dataset in Train-test split with a ratio of 70%-30%.
 
-## Perform encoding for better understanding of the data by converting the Categorial data into the Numeric one. 
+## Perform encoding 
+For better understanding of the data by converting the Categorial data into the Numeric one. 
 
-## Perform Word Vectorization which means turning a collection of text documents into numerical feature vectors to get the frequency of each other associated with the particular text statement. 
+## Perform Word Vectorization 
+Turning a collection of text documents into numerical feature vectors to get the frequency of each other associated with the particular text statement. 
 The approach I considered here is **TF-IDF (Term Frequency - Inverse Document Frequency)** 
 The TF-IDF build a vocabulary of words which it has learned from the dataset and it will assign a unique integer number to each of these words.
 
